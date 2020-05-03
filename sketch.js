@@ -14,6 +14,7 @@ function setup() {
 }
 
 function draw() {
+  //giving background color
   background(0,0,0);  
 
   bounceOff(movingRect,fixedRect);
